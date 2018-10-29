@@ -253,7 +253,7 @@ public class LorexHCF extends JavaPlugin {
 	public CombatLogListener getCombatLogListener() {
 		return this.combatLogListener;
 	}
-	public static String PREFIX1 = ChatColor.GOLD + "" + ChatColor.BOLD + "Zorex" + ChatColor.GRAY + " » ";
+	public static String PREFIX1 = ChatColor.GOLD + "" + ChatColor.BOLD + "Zorex" + ChatColor.GRAY + " ï¿½ ";
 
 	public void resetGlowstoneMountain() {
 		for (int x = 502; x <= 582; x++) {
@@ -284,7 +284,7 @@ public class LorexHCF extends JavaPlugin {
 		Cooldowns.createCooldown("lff_cooldown");
 		Cooldowns.createCooldown("revive_cooldown");
 	
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7The core has been &aenabled!&7."));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &7The core has been &aenabled!&7."));
 		instance = this;
 		BasePlugin.getPlugin().init(this);
 
@@ -347,13 +347,13 @@ public class LorexHCF extends JavaPlugin {
 
 	@Override
 	public void onDisable() {
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7Economy has been &asaved! &7(1/6)"));
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7Faction has been &asaved! &7(2/6)"));
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7Key Data has been &asaved! &7(3/6)"));
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7Cooldowns has been &asaved! &7(4/6)"));
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7Player Data has been &asaved! &7(5/6)"));
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7Player Vaults has been &asaved! &7(6/6)"));
-		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8» &7Saving is now &acomplete!&7."));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8ï¿½ &7Economy has been &asaved! &7(1/6)"));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8ï¿½ &7Faction has been &asaved! &7(2/6)"));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8ï¿½ &7Key Data has been &asaved! &7(3/6)"));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8ï¿½ &7Cooldowns has been &asaved! &7(4/6)"));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8ï¿½ &7Player Data has been &asaved! &7(5/6)"));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8ï¿½ &7Player Vaults has been &asaved! &7(6/6)"));
+		Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&lZorex &8ï¿½ &7Saving is now &acomplete!&7."));
 		this.pvpClassManager.onDisable();
 		this.scoreboardHandler.clearBoards();
 		this.factionManager.saveFactionData();
@@ -713,7 +713,7 @@ public class LorexHCF extends JavaPlugin {
 		return null;
 	}
     static {
-        PREFIX = ChatColor.GOLD + ChatColor.BOLD.toString() + "Zorex §8» " + ChatColor.GRAY;
+        PREFIX = ChatColor.GOLD + ChatColor.BOLD.toString() + "Zorex  " + ChatColor.GRAY;
         NOPLAYER = ChatColor.RED + "You must be a player to use this command. ";
         PREFIXNOPERMS = ChatColor.RED + "You lack the sufficient permissions to use this prefix. ";
         NOPERMS = ChatColor.RED + "You lack the sufficient permissions to execute this command. ";
