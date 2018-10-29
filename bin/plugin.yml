@@ -1,0 +1,130 @@
+name: Zorex
+version: 1.0
+description: HCF CORE 
+author: bruceboy
+main: me.bruce.factions.LorexHCF
+softdepend: [ProtocolLib]
+commands:
+  hcf:
+  rawcast: 
+  wb:
+  nv:
+  stats:
+  setnpc:
+  staffguide:
+  tablistgui:
+    aliases: [tabgui]
+  coords:
+  pots:
+  vanish:
+   aliases: [v]
+  staffgui:
+  author:
+   aliases: [dev,developer,best,bestdev]
+  gamemode:
+   aliases: [gm]
+  setprefix:
+  slowchat:
+  disablechat:
+  tp:
+  here:
+  fly:
+  fix:
+  invsee:
+  randomtp:
+  panic:
+  tl:
+  baller:
+  rules:
+  vip:
+  zorex:
+  spawn:
+  lff:
+  pro:
+  prefix:
+  keysale:
+  sp:
+  fr:
+  reboot:
+  rank:
+  broadcast:
+   aliases: [bc]
+  buy:
+  tablist:
+   aliases: [pot]
+  settings:
+  refund:
+    aliases: [inv, restore, invrestore]
+  ping:
+  freeze:
+     aliases: [ss]
+  enderdragon:
+  hub:
+  this:
+  playtime:
+    aliases: [pt]
+  cobble:
+  crowgive:
+     aliases: [crowbar, crowbargive]
+  Amethyst:
+  hcfhelp:
+      aliases: [help, ehelp, pl, ?]
+  conquest:
+    description: Command used to handle Conquest events.
+  economy:
+    aliases: [$, bal, money, eco, econ]
+    description: Command used to modify the economy.
+  eotw:
+    aliases: [endoftheworld]
+    description: Sets if the server is in End of the World mode.
+  event:
+    description: Command used to manage minigame events.
+  faction:
+    aliases: [f, fac]
+    description: Faction related commands.
+  gopple:
+    description: Command to check remaining OP apple cooldown time.
+    aliases: [opple, goppletimer, goppletime, oppletimer, oppletime]
+  hcf:
+    aliases: [hardcorefactions, hcfactions]
+  koth:
+    description: Make or delete KotH arenas.
+  lives:
+    description: Management of lives or deathbans.
+  location:
+    aliases: [loc]
+    description: Check the faction location of a player.
+  logout:
+    aliases: [disconnect]
+    description: Command to safely logout without an NPC spawning.
+  mapkit:
+    aliases: [viewkit]
+    description: Used to check the current map restrictions.
+  pay:
+    aliases: [p2p]
+    description: Allow players to pay money.
+  pvptimer:
+    aliases: [pvp]
+    description: Command to enable or disable pvp timer protection.
+  regen:
+    description: Check ETA until a faction is able to regenerate DTR.
+  sotw:
+    aliases: [startoftheworld]
+    description: Command used to manage start of the world.
+  staffrevive:
+    aliases: [revive]
+    description: Command used by staff to revive players.
+  timer:
+    description: Command to manage timers.
+  togglecapzoneentry:
+    aliases: [togglecapentry]
+    description: Command used to hide or show capture zone entry messages.
+  togglelightning:
+    aliases: [lightningtoggle, togglestrikes]
+    description: Toggles the lightning strikes for when a player dies.
+  rename:
+  ores:
+    description: See ores mined.
+    aliases: [stats, mined]
+  glowstonemountain:
+    aliases: [reset]

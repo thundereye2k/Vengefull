@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Vengeful:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Vengeful_jar</output-path>
+    <root id="archive" name="Vengeful.jar">
+      <element id="module-output" name="Vengeful" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../WorldGuard.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../StaffMode.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../ProtocolLib PP.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/EssentialsX-2.15.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../WorldEdit-6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Vault-1.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../paperspigot.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Lombok-1.6.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
